@@ -250,7 +250,7 @@ See ``Sample_40_TemplateSetComplexValue.php`` for examples.
     $table->addCell(150)->addText('Cell B3');
     $templateProcessor->setComplexBlock('table', $table);
 
-setChartValue
+setChart
 """""""""""""
 Replace a variable by a chart.
 
@@ -259,7 +259,7 @@ Replace a variable by a chart.
     $categories = array('A', 'B', 'C', 'D', 'E');
     $series1 = array(1, 3, 2, 5, 4);
     $chart = new Chart('doughnut', $categories, $series1);
-    $templateProcessor->setChartValue('myChart', $chart);
+    $templateProcessor->setChart('myChart', $chart);
 
 save
 """"
